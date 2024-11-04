@@ -79,9 +79,12 @@
     <p>Good food, good mood! Check out my favorite easy, healthy recipes that nourish and energize. </p>
   <button>Discover</button>
   </article>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
   <script>
-    $("button").on("click", function() {
-      alert("Hi, more info coming soon!");
+    $(document).ready(function() {
+      $("button").on("click", function() {
+        alert("Hi, more info coming soon!");
+      });
     });
   </script>
 </body>
