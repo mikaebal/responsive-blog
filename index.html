@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <title>Mikaela's Blog</title>
-  <link href="/normalize.css" rel="stylesheet">
   <style>
     header {
       text-align: center;
@@ -67,25 +66,27 @@
   <article>
     <h2>Wellness: Mind & Balance</h2>
     <p>Refocus and recenter from sound bowl meditations to self-care tips, explore simple ways to bring peace and relaxation into your life.</p>
-  <button>Discover</button>
+    <button>Discover</button>
   </article>
   <article>
     <h2>Fitness: Move & Groove</h2>
     <p>Find the workouts that fit your vibe! Whether it's reformer pilates, spin classes, or at-home routines, I've got you covered.</p>
-  <button>Discover</button>
+    <button>Discover</button>
   </article>
   <article>
     <h2>Nutrition: Fuel & Glow</h2>
-    <p>Good food, good mood! Check out my favorite easy, healthy recipes that nourish and energize. </p>
-  <button>Discover</button>
+    <p>Good food, good mood! Check out my favorite easy, healthy recipes that nourish and energize.</p>
+    <button>Discover</button>
   </article>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
   <script>
     $(document).ready(function() {
+      console.log($("button")); // Log to check buttons
       $("button").on("click", function() {
+        console.log("Button clicked!"); // Log button clicks
         alert("Hi, more info coming soon!");
       });
     });
   </script>
 </body>
-</html>
+</html> 
