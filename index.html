@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mikaela's Blog</title>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://i.pinimg.com/736x/7b/06/c0/7b06c0fad2243d797015068c7e456d1b.jpg');
+      background-size: cover;
+      color: #585858;
+    }
+    a {
+      color: #585858;
+    }
+    h1 {
+      font-size: 60px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(210, 180, 140, 0.7);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    button {
+      background-color: rgba(210, 180, 140, 0.7);
+      color: #585858;
+      border-style: none;
+      border-radius: 8px; 
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      color: #404040; 
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/3KdgofBb.jpg">
+    <h1>Mikaela's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Wellness</a></li>
+      <li><a href="#">Fitness</a></li>
+      <li><a href="#">Nutrition</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Wellness: Mind & Balance</h2>
+    <p>Refocus and recenter from sound bowl meditations to self-care tips, explore simple ways to bring peace and relaxation into your life.</p>
+  <button>Discover</button>
+  </article>
+  <article>
+    <h2>Fitness: Move & Groove</h2>
+    <p>Find the workouts that fit your vibe! Whether it's reformer pilates, spin classes, or at-home routines, I've got you covered.</p>
+  <button>Discover</button>
+  </article>
+  <article>
+    <h2>Nutrition: Fuel & Glow</h2>
+    <p>Good food, good mood! Check out my favorite easy, healthy recipes that nourish and energize. </p>
+  <button>Discover</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Hi, more info coming soon!");
+    });
+  </script>
+</body>
+</html>
