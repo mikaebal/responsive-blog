@@ -1,14 +1,14 @@
 # 🧘🏻‍♀️ Mikaela's Blog
 
 ## 📝 Description
-Mikaela's Blog is a responsive wellness platform that invites visitors to explore topics like self-care, fitness, and nutrition. With a focus on user interaction, readers can engage with the content through a discover button that reveals a helpful insight via a notification pop-up.
+Mikaela's Blog is a responsive wellness platform covering self-care, fitness, and nutrition, where visitors can interact with the **Discover** button to trigger a notification pop-up with insights.
 
 View my project [HERE](https://mikaebal.github.io/responsive-blog/) 🔍
 
 ### ✨ Features
 
-- Interactive discover button that provides additional information.
-- Responsive design for seamless viewing on any device.
+- Interactive Discover button with a notification pop-up.
+- Responsive design for all devices.
 
 ## 🛠️ Languages and Utilities Used
 
