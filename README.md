@@ -15,4 +15,3 @@ View my project [HERE](https://mikaebal.github.io/responsive-blog/) 🔍
 - JavaScript
 - HTML
 - CSS
-- Dash
